@@ -1,0 +1,47 @@
+[debug] [2021-02-24T21:46:00.042Z] ----------------------------------------------------------------------
+[debug] [2021-02-24T21:46:00.043Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sayana Veliyil Renny\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-02-24T21:46:00.044Z] CLI Version:   9.4.0
+[debug] [2021-02-24T21:46:00.044Z] Platform:      win32
+[debug] [2021-02-24T21:46:00.044Z] Node Version:  v14.10.0
+[debug] [2021-02-24T21:46:00.046Z] Time:          Wed Feb 24 2021 16:46:00 GMT-0500 (Eastern Standard Time)
+[debug] [2021-02-24T21:46:00.046Z] ----------------------------------------------------------------------
+[debug] [2021-02-24T21:46:00.046Z] 
+[debug] [2021-02-24T21:46:00.056Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-24T21:46:00.057Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\myapp\ssr\deeplinktrialz
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using deeplinktrialz. 
+[debug] [2021-02-24T21:46:05.160Z] > refreshing access token with scopes: []
+[debug] [2021-02-24T21:46:05.161Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-24T21:46:05.389Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Wed, 24 Feb 2021 21:46:04 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-24T21:46:05.411Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/deeplinktrialz [none]
+[debug] [2021-02-24T21:46:05.768Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/deeplinktrialz 200
+[debug] [2021-02-24T21:46:05.769Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/deeplinktrialz {"projectId":"deeplinktrialz","projectNumber":"731624341103","displayName":"deeplinktrialz","name":"projects/deeplinktrialz","resources":{"hostingSite":"deeplinktrialz"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
